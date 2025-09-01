@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+
+# Env
+.env
+
+# Spark outputs (we versiona só o raw de exemplo)
+data/bronze/
+data/silver/
+data/gold/
+
+# Logs/temp
+logs/
+tmp/
+

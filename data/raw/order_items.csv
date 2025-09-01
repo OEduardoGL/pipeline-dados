@@ -1,0 +1,7 @@
+order_id,item_id,product,category,quantity,unit_price
+100,1,Keyboard,Accessories,1,120.50
+100,2,Mouse,Accessories,2,45.00
+101,1,Laptop,Computers,1,3500.00
+102,1,Headset,Accessories,1,200.00
+103,1,Monitor,Monitors,2,899.90
+
