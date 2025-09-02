@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: pipe2
+Version: 0.1.0
+Summary: Spark Data Pipeline (Bronze/Silver/Gold)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark<3.6,>=3.5
+
 Spark Data Pipeline (Bronze/Silver/Gold)
 
 Este projeto demonstra um pipeline de dados funcional e organizado com PySpark, usando camadas bronze/silver/gold, checks básicos de qualidade e configuração externa.

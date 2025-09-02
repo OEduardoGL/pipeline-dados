@@ -14,7 +14,8 @@
   "spark": {
     "logLevel": "WARN",
     "config": {
-      "spark.sql.shuffle.partitions": "4"
+      "spark.sql.shuffle.partitions": "4",
+      "spark.master": "local[2]"
     }
   },
   "write": {
@@ -23,4 +24,3 @@
     "partitionBy_gold": ["order_date"]
   }
 }
-
