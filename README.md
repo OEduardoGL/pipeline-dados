@@ -20,7 +20,7 @@ Estrutura
 Pré‑requisitos
 
 - Python 3.8+
-- PySpark 3.x instalado e acessível (ex.: `pip install pyspark`)
+- PySpark 3.x instalado e acessível 
 
 Executando
 
@@ -49,24 +49,7 @@ Saídas padrão:
 - Silver: `data/silver/` (Parquet)
 - Gold: `data/gold/` (Parquet)
 
-O que o pipeline faz (exemplo e-commerce)
-
-- Clientes (`customers`), pedidos (`orders`) e itens de pedido (`order_items`).
-- Silver: corrige tipos (datas, numéricos), remove linhas inválidas, deduplica chaves.
-- Gold: calcula receita por dia e categoria.
-
-Adaptação
-
-- Ajuste schemas em `src/pipe2/schemas.py`.
-- Ajuste paths e particionamento em `configs/dev.json`.
-- Adapte transformações em `src/pipe2/transformations.py`.
-
-Notas
-
-- O pipeline usa `overwrite` para idempotência simples no ambiente de dev.
-- Para cenários reais, evolua para incremental (watermarks, merge/upserts, etc.).
-
-Quickstart (qualquer máquina)
+Quickstart 
 
 - Pré‑requisitos: Java 17 (JDK), Python 3.8+.
 - Clonar e instalar localmente o pacote (para que `pipe2` seja importável):
